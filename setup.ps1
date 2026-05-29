@@ -1,22 +1,3 @@
-# setup-obs-overlay.ps1
-#
-# OBS Keyshot Overlay Auto Setup
-#
-# WHAT THIS DOES:
-# - Detects OBS config directory
-# - Creates OBS scripts folder if missing
-# - Copies overlay script automatically
-# - Installs pynput into OBS Python
-# - Prints helpful status messages
-#
-# USAGE:
-#
-# Open PowerShell as Administrator:
-#
-# powershell -ExecutionPolicy Bypass -File .\setup.ps1
-#
-# ------------------------------------------------------------
-
 $ErrorActionPreference = "Stop"
 
 Write-Host ""
